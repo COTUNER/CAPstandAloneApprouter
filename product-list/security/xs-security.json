@@ -28,6 +28,6 @@
 	],
   "oauth2-configuration": 
     {  
-      "redirect-uris": ["https://approuter-product-list-ap25.cfapps.eu10.hana.ondemand.com/login/callback"]          
+      "redirect-uris": ["https://approuter-product-list-ay1996.cfapps.us10-001.hana.ondemand.com/login/callback"]          
       }
 }
