@@ -4,8 +4,10 @@ applications:
   instances: 1
   memory: 128M
   routes:
-    - route: <insert your route here>
+    - route: product-list-ap25.cfapps.eu10.hana.ondemand.com
   path: myapp
   buildpacks:
     - nodejs_buildpack  
   timeout: 180
+  services:
+    - xsuaa-service-tutorial
